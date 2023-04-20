@@ -1,0 +1,360 @@
+.ghead{
+    width: 100%;
+    height: 430PX;
+ 
+}
+.con33{
+ height: 100%;
+    width: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url(gamesbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+      background-position: center;
+}
+.upper{
+
+display: flex;
+padding: 30px;
+align-items: center;
+}
+.upper h1{
+ margin: 10px;
+ font-size: 40px;
+ text-transform: uppercase;
+ position: absolute;
+ left: 30%;
+bottom: 50%;
+ color: white;
+}
+.upper p{
+    color: white;
+    position: absolute;
+  left: 22%;
+    bottom: 45%;
+    font-size: 19px;
+    letter-spacing: 1px;
+     color: white;
+     font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.games{
+    background-color: #ffffff;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.games::after{
+    content: '';
+    background-color: #d60d10;
+    width: 100%;
+    height: 324px;
+    position: absolute;
+    transform: skew(406deg, -40deg) rotate(31deg);
+    position: absolute;
+    left: 149px;
+    top: 312px;
+}
+
+
+.game-card{
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    height: 567px;
+    
+    transition: .4s ease;
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+}
+.game-card:hover{
+
+    transform: translatey(-5px);
+    border-bottom: #960808 4px solid;
+    background-color: rgb(159, 204, 243);
+
+}
+.game-cardcon{
+ 
+}
+.cardcon{
+    height: 100%;
+    margin: 6px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 var(--space-2) var(--space-3) 0 var(--shadow-color)
+}
+.card-photo img{
+    margin-left: auto;
+    padding: auto;
+    width: 300px;
+    margin: 3px;
+    height: 50%;
+}
+.gamecontentcon{
+    height: 150px;
+    padding: 3px;
+    flex-direction: column;
+    position: relative;
+}
+.card-game-content h4{
+    padding: 5px;
+    font-weight: 400px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    font-size: 19px;
+    letter-spacing: .2px;
+
+}
+.card-game-content p{
+    padding: 3px 10px;
+    color: rgb(105, 108, 108);
+  font-weight: 100;
+  font-family: sans-serif;
+}
+.gamecontentcon a{
+position: absolute;
+bottom: -23px;
+
+color: aliceblue;
+background-color: #e62429;
+padding: .7rem 1.4rem;
+border-radius: 250px;
+transition: .2s linear;
+left: 20px;
+margin-bottom: 5px;
+}
+.card-game-content a:hover{
+    background-color: #ca2228eb;
+    transform: scale(1.1);
+}
+.meoww{
+    margin:  30px;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 1.2px;
+    color: black;
+    position: relative;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.meoww::after{
+    background-color: #c6a972;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-45deg) skewX(45deg);
+    width: 40px;
+    left: 108px;
+    top: -12px;
+    z-index: 1;
+}
+.meoww::before{
+    background-color: #c6a972;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-45deg) skewX(45deg);
+    width: 40px;
+    left: 60px;
+    z-index: 1;
+    top: 39px;
+
+}
+.comingsoon-{
+    height: 100vh;
+    width: 100%;
+}
+.comingsoon-con{
+    width: 100%;
+    
+}
+.photoddd{
+ margin: auto;
+    width: 99%;
+position: relative;
+display: flex;
+}
+.photoddd::before{
+    content: '';
+    color: white;
+    background-color: #202020c3;
+    width: 100%;
+    height: 100%;
+    left: 0;
+  
+    position: absolute;
+
+    
+}
+.photoddd p{
+    padding:46px 15px;
+    width: 45%;
+    color: white;
+    text-transform: capitalize;
+    font-size: 29px; 
+    position: absolute;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 100;
+    top: 52%;
+    left: 2%;
+}
+.trailer1{
+    display: flex;
+}
+.trailer1 p{
+    padding: 48px;
+    width: 49%;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-size: 25px;
+    position: absolute;
+    line-height: initial;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 100;
+    left: 50%;
+    margin-top: 10px;
+
+}
+.photoddd h3{
+ top: 53%;
+ left: -12%;
+    padding:40px ;
+    width: 60%;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px;
+  margin: auto;
+  text-align: center;
+    position: absolute;
+    font-weight: 100;
+   font-weight: 500;
+    z-index: 100;
+}
+
+.trailer1 iframe{
+
+    position: relative;
+    left: 70px;
+    top: -61px;
+    border-radius: 10px;
+}
+.comingsoon-con img{
+    width: 100%;
+}
+
+.bannerdown{
+    display: flex;
+}
+.bannerdown{
+    width: calc(100% - 400px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: -43px;
+    position: relative;
+    z-index: 100;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(300px,1fr));
+    padding-top: 70px;
+}
+.dataaa img{
+
+    max-width: 310px;
+    position: absolute;
+    right: 100px;
+    top: 15%;
+    padding: 5px 5px;
+}
+.dataaa h4{
+
+   text-transform:uppercase;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 700;
+     
+    margin-left: 15px;
+}
+.dataaa p{
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 1.7;
+    padding: 0 20px;
+    margin: 20px 15px;
+}
+
+
+.dataaainfo{
+    margin-top: 10px;
+    width: 100%;
+    margin: 0 3% 35px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.dataaainfo .data{
+    width: 30%;
+}
+.dataaainfo .data h5{
+  text-transform: uppercase;
+    font: 500 14px/1.2 'Roboto', sans-serif;;
+    color: #767676;
+    margin: 0 0 5px;
+    font-weight: 700;
+    
+
+}
+.dataaainfo .data p{
+    margin-top: 5px;
+    font-weight: 700;
+    margin-left: -15px;
+    font-size: 15px;
+}
+.contentgame .game-btn {
+   
+    height: fit-content;
+    color: aliceblue;
+    background-color: #e62429;
+    padding: 0.7rem 1.4rem;
+    width: fit-content;
+    border-radius: 250px;
+    transition: .2s linear;
+    margin-bottom: 5px;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    left: 146px;
+    /* top: 39%; */
+    position: relative;
+    top: 371px;
+}
+
+    .game-btn:hover{
+        background-color: #ca2228eb;
+        
+    }

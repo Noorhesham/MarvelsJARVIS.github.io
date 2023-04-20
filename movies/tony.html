@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>spiderman</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home page</title>
+        <link rel="stylesheet" href="./template2.css">
+        <link rel="stylesheet" href="./">
+        <link rel="stylesheet" href="./normalize.css">
+        <link rel="stylesheet" href="./all.min.css">
+        <link rel="stylesheet" href="spiderchar.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+       <link rel="stylesheet" href="tony.css"/>
+       <link rel="stylesheet" href="spiderchar.css">
+        <!-- icons from box -->
+        <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,700;1,900&display=swap" rel="stylesheet">
+      <!-- Link Swiper's CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;800&family=Roboto:ital,wght@0,500;0,700;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+</head>
+<body>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
+    <header id="navbar" style="background-color: #202020;">
+        
+        <div class="logo">
+            <a href="#marvel">
+                <img src="./marvel-logo-png-transparent.png" alt="">
+            </a>
+        </div>
+        <div class="nav1">
+        <ul class="nav">
+            <li><a href="./template2.html" class="homepage">Home</a></li>
+            <li><a href="./moviees/index.html" class="mov">Movies
+            </a>
+  
+      </li>
+            <li><a href="./charachters.html">Characters</a></li>
+            <li><a href="./games.html">Games</a></li>
+            <li><a href="#music">Music</a>
+            </li>
+        </ul>
+      
+      </div>
+      <a href="#footer" class="btn1" style=> About us</a>
+    </header>
+    <section class="tobey" style="background-color: #202020; padding-bottom: 0;width: 100%;" >
+        <div class="spidercontainer"  style="background-image: url(Tony/ground.webp);background-size: cover;background-repeat: no-repeat;width: 100%;height: 65vh;position: relative;">
+            <div class="back" style="  display: flex;
+            width: fit-content;
+            flex-direction: column;
+            color: white;
+            padding: 100px;
+            position: absolute;left: -4%;
+    margin: 23px;
+    margin-left: 4px;
+    top: 7px;" >
+                <h1 class="meow">Tony Stark</h1>
+                <h2>Iron Man</h2>
+                <P>Genius. Billionaire. Philanthropist. Tony Stark's confidence is only matched by his high-flying abilities as the hero called Iron Man.</P>
+            </div>   
+        </div>
+      </section>
+
+      <hr style="height: 10px;">
+      <div class="powers" style="display: flex; justify-content: space-evenly;">
+       <div class="percentage" >
+        <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" style="stroke-dashoffset: calc(440 * (0/100) ); animation: animate-circle3  1.5s  linear; "></circle>
+        </svg>
+        <div class="number" >
+            <h2>6</h2>
+        </div>
+        <h3 class="text22">DURABILITY</h3>
+       </div>
+       <div class="percentage" >
+        <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" style="stroke-dashoffset: calc(440 * (0/100) ); animation: animate-circle3  1.5s  linear; "></circle>
+        </svg>
+        <div class="number">
+            <h2>6</h2>
+        </div>
+        <h2 class="text22">ENERGY</h2>
+       </div>
+       <div class="percentage" >
+        <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" style="stroke-dashoffset: calc(440 * (20/100) );animation: animate-circle3  1.5s  linear; "></circle>
+        </svg>
+        <div class="number">
+            <h2>4</h2>
+        </div>
+        <h2 class="text22" >STRENGTH</h2>
+       </div>
+       <div class="percentage" >
+        <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" style="stroke-dashoffset: calc(440 * (15/100));animation: animate-circle3  1s  linear; "></circle>
+        </svg>
+        <div class="number">
+            <h2>4.5</h2>
+        </div>
+        <h2 class="text22">FIGHTING SKILLS</h2>
+       </div>
+       <div class="percentage" >
+        <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" style="stroke-dashoffset: calc(440 * (10/100) );animation: animate-circle3  1s  linear; "></circle>
+        </svg>
+        <div class="number">
+            <h2>5</h2>
+        </div>
+        <h2 class="text22">SPEED</h2>
+       </div>
+       <div class="percentage" >
+        <svg class="mmm">
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" style="color:yellow;;stroke-dashoffset: calc(440 * (5/100) );animation: animate-circle3  1s  linear; "></circle>
+        </svg>
+        <div class="number">
+            <h2>5.5</h2>
+        </div>
+        <h2 class="text22">INTELLIGENCE</h2>
+       </div>
+
+     </div>
+      <div class="spider2" style="width: 100%;">
+        <div class="spidercontainer" style= " background-image: url(tony/pp.jpg);background-size: cover;
+        width: 100%;
+        height: 96vh;
+        display: flex;background-position-x:230px ;">
+   
+            <!-- <div class="back1"  style="display: flex; flex-direction: column; color: white;">
+                <h1 >spider-man</h1>
+                <h3>peter 1</h3>
+                <h2>tom holland</h2>
+                <p>With amazing spider-like abilities, teenage science whiz Peter Parker fights crime and dreams of becoming an Avenger as Spider-Man.</p>
+                <a class="btn" href="tom.html">swing there!</a>
+            </div> -->
+            <h3 style="    font: 800 26px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+            letter-spacing: 1px;    color: #c6a972;
+border-bottom: 1px solid #fff0f0;
+padding-top: 20px;
+margin: 0 0 30px;
+width: fit-content;
+max-width: none;text-transform: uppercase;height: fit-content;position: relative;left: 83px;top: 10px;">bio</h3>
+            <div class="bio" >
+        
+                <div class="biohead">
+                <div class="bioinfo" style="border-right: 1px solid #e1e1e1;">
+                    <div class="bioo">
+                    <h3>height</h3>
+                    <h6>6.1"</h6>
+                </div>
+                    <div class="bioo">
+                    <h3>actor</h3>
+                    <h6>RobertDowney Jr</h6>
+                </div>
+                    <div class="bioo">
+                    <h3>weight</h3>
+                    <h6>225lbs</h6>
+                </div>
+                    <div class="bioo">
+                    <h3>gender</h3>
+                    <h6>male</h6>
+                </div>
+                </div>
+                <div class="bioinfo">
+                    <div class="bioo">
+                    <h3>eyes</h3>
+                    <h6>blue</h6>
+                </div>
+                    <div class="bioo">
+                    <h3>hair</h3>
+                    <h6>black</h6>
+                </div>
+                </div>
+            </div>
+                <div class="bioinfo" style="border-bottom: 2px solid #e1e1e1;">
+                    <div class="bioo">
+                    <h3>universe</h3>
+                    <h6>Marvel Universe</h6>
+                </div>
+                    <div class="bioo">
+                    <h3> EDUCATION</h3>
+                    <h6>Ph.Ds in physics and electrical engineering</h6>
+                </div>
+                    <div class="bioo">
+                    <h3> Alias(es):</h3>
+                    <h6>Anthony Edward "Tony" Stark,
+                         Shellhead, 
+                         Golden Avenger, 
+                         Tetsujin, 
+                         Formerly Crimson Dynamo,
+                          Formerly Iron Knight,
+                           Formerly Hogan Potts,
+                            Formerly Randall Pierce,
+                             Formerly Spare Parts Man,
+                              Impersonated Cobalt Man (Ralph Roberts)</h6>
+                </div>
+                <div class="bioo">
+                    <h3> first apperance</h3>
+                    <h6>Iron Man 2008</h6>
+                </div>
+                <div class="bioo">
+                    <h3> last apperance</h3>
+                    <h6>Avengers:Endgame 2019</h6>
+                </div>
+                </div>
+
+            </div>
+        </div>
+        <hr style="height: 20px;">
+            <div class="swiper mySpider">
+                <div class="swiper-wrapper" style="height: 70vh;">
+                  <div class="swiper-slide">
+                    <div class="storymoment">
+                        <img src="Tony/1.jpg" alt="" style="transform: scale(0.7) translateX(320px) translateY(-183px);">
+                        <div class="storycon">
+                        </div>
+                        <div class="storyconn">
+                            <div class="storytitles">
+                            <div class="counter">
+                            <h3>01</h3>
+
+                            <h4>05</h4>
+                         </div>
+                            <h2>story moments</h2>
+                        </div>
+                        <div class="story">
+                            <h1>SUIT UP</h1>
+                        </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="storymoment">
+                        <img src="Tony/2.webp" alt="" style="transform: scale(0.7) translateX(327px) translateY(-183px);">
+                        <div class="storycon">
+                        </div>
+                        <div class="storyconn">
+                            <div class="storytitles">
+                            <div class="counter">
+                            <h3>02</h3>
+
+                            <h4>05</h4>
+                         </div>
+                            <h2>story moments</h2>
+                        </div>
+                        <div class="story">
+                            <h1>SAVING NEW YORK</h1>
+                        </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="storymoment">
+                        <img src="Tony/3.webp" alt="" style="    transform: scale(0.7) translateX(357px) translateY(-183px);">
+                        <div class="storycon">
+                        </div>
+                        <div class="storyconn">
+                            <div class="storytitles">
+                            <div class="counter">
+                            <h3>03</h3>
+
+                            <h4>05</h4>
+                         </div>
+                            <h2>story moments</h2>
+                        </div>
+                        <div class="story" >
+                            <h1>NEVER DEATH</h1>
+                        </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="storymoment">
+                        <img src="Tony/4.gif" alt="" style="transform: scale(0.9) translateX(327px) translateY(-138px);">
+                        <div class="storycon">
+                        </div>
+                        <div class="storyconn">
+                            <div class="storytitles">
+                            <div class="counter">
+                            <h3>04</h3>
+
+                            <h4>05</h4>
+                         </div>
+                            <h2>story moments</h2>
+                        </div>
+                        <div class="story" >
+                            <h1>SECERTS FROM THE PAST</h1>
+                            <p>Already on opposite sides of a fight over the Sokovia Accords, Iron Man unleashed his full fury on Captain America and Bucky when he learned the truth about his parents’ death.</p>
+                        </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="storymoment">
+                        <img src="Tony/5.gif" alt="" style="transform: scale(0.63) translateX(507px) translateY(-281px);">
+                        <div class="storycon">
+                        </div>
+                        <div class="storyconn">
+                            <div class="storytitles">
+                            <div class="counter">
+                            <h3>05</h3>
+
+                            <h4>05</h4>
+                         </div>
+                            <h2>story moments</h2>
+                        </div>
+                        <div class="story" >
+                            <h1>FACING THE MAD TITAN</h1>
+                        </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                  
+                
+             
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            
+              <!-- Swiper JS -->
+              <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            
+              <!-- Initialize Swiper -->
+              <script>
+                var swiper = new Swiper(".mySpider", {
+                  spaceBetween: 30,
+                  effect: "fade",
+                  navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                  },
+                  pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                  },
+                });
+              </script>
+          <h1 class="meow" style="color: black; font-size: 30px; font-weight: 400;">friends & family</h1>
+<section class="chars11" id="characters">         
+
+    <div class="slide" style="border-top:#e62429 4px solid;padding: 10px;border-bottom:#e62429 4px solid;padding-bottom: 30px;">
+       
+        <ul class="slidecon">
+         <div class="itemm" id="item">
+                <a class="link">
+                    <div class="card">
+                        <figure class="cardimg">
+                            <img src="Tony/f1.jpg"id="rr">
+                        </img>
+                        <!-- After  -->
+                         </figure>
+                    </div>
+                    <div class="cardbody">
+                        
+                    <P>Captain America</P>
+                    <P style="font-size: 15px;color: gainsboro;"></P>
+                    </div>
+                </a>  
+         </div>         
+    </ul>            
+        <ul class="slidecon">
+         <div class="itemm" id="item">
+                <a class="link">
+                    <div class="card">
+                        <figure class="cardimg">
+                            <img src="Tony/f2.jpg"id="rr">
+                        </img>
+                        <!-- After  -->
+                         </figure>
+                    </div>
+                    <div class="cardbody">
+                        
+                    <P>War Machine </P>
+
+                    </div>
+                </a>  
+         </div>         
+    </ul>            
+        <ul class="slidecon">
+         <div class="itemm" id="item">
+                <a class="link">
+                    <div class="card">
+                        <figure class="cardimg">
+                            <img src="Tony/f3.webp"id="rr">
+                        </img>
+                        <!-- After  -->
+                         </figure>
+                    </div>
+                    <div class="cardbody">
+                        
+                    <P>Pepper Potts</P>
+
+                    </div>
+                </a>  
+         </div>         
+    </ul>            
+        <ul class="slidecon">
+         <div class="itemm" id="item">
+                <a class="link">
+                    <div class="card">
+                        <figure class="cardimg">
+                            <img src="Tony/f4.jpg"id="rr">
+                        </img>
+                        <!-- After  -->
+                         </figure>
+                    </div>
+                    <div class="cardbody">
+                        
+                    <P>Black Widow </P>
+
+                    </div>
+                </a>  
+         </div>         
+    </ul>            
+        <ul class="slidecon">
+         <div class="itemm" id="item">
+                <a class="link">
+                    <div class="card">
+                        <figure class="cardimg">
+                            <img src="Tony/f5.jpg"id="rr">
+                        </img>
+                        <!-- After  -->
+                         </figure>
+                    </div>
+                    <div class="cardbody">
+                        
+                    <P>Bruce Banner</P>
+
+                    </div>
+                </a>  
+         </div>         
+    </ul>            
+        <ul class="slidecon">
+         <div class="itemm" id="item">
+                <a class="link">
+                    <div class="card">
+                        <figure class="cardimg">
+                            <img src="Tony/f6.jpg"id="rr">
+                        </img>
+                        <!-- After  -->
+                         </figure>
+                    </div>
+                    <div class="cardbody">
+                        
+                    <P>Spider Man</P>
+
+                    </div>
+                </a>  
+         </div>         
+    </ul>            
+</div>          
+  </section>
+    
+  <hr style="height: 20px;">
+  <h1 class="meow" style="color: black; font-size: 30px; font-weight: 400;">abilities & super powers</h1>
+  <div class="swiper mySpider">
+      <div class="swiper-wrapper" style="height: 70vh;">
+        <div class="swiper-slide">
+          <div class="storymoment">
+              <img src="Tony/P1.jpeg" alt="" style="transform:translateX(155px) translatey(-100px) scale(.8)">
+              <div class="storycon">
+              </div>
+              <div class="storyconn">
+                  <div class="storytitles">
+                  <div class="counter">
+                  <h3>01</h3>
+
+                  <h4>04</h4>
+               </div>
+                  <h2>powers + abilities</h2>
+              </div>
+              <div class="story">
+                  <h1>FLIGHT</h1>
+                  <p> Iron Man’s suit enables Tony Stark to fly, with upgrades increasing the speed capabilities</p>
+              </div>
+          </div>
+          </div>
+          
+        </div>
+        <div class="swiper-slide">
+          <div class="storymoment">
+              <img src="Tony/P2.jpg" alt="" style="transform:translateX(315px) translatey(-180px) scale(.7)">
+              <div class="storycon">
+              </div>
+              <div class="storyconn">
+                  <div class="storytitles">
+                  <div class="counter">
+                  <h3>02</h3>
+
+                  <h4>04</h4>
+               </div>
+                  <h2>powers + abilities</h2>
+              </div>
+              <div class="story">
+                  <h1>artificial intelligence </h1>
+                  <p>An onboard AI system – originally JARVIS, then replaced by FRIDAY – helps Tony control his armor and connect to other systems. </p>
+              </div>
+          </div>
+          </div>
+          
+        </div>
+        <div class="swiper-slide">
+          <div class="storymoment">
+              <img src="Tony/P3.jpg" alt=""  style="transform:translateX(400px) translatey(-130px) scale(.7)">
+              <div class="storycon">
+              </div>
+              <div class="storyconn">
+                  <div class="storytitles">
+                  <div class="counter">
+                  <h3>03</h3>
+
+                  <h4>04</h4>
+               </div>
+                  <h2>powers + abilities</h2>
+              </div>
+              <div class="story">
+                  <h1>ARMORED SUIT</h1>
+                  <p>Tony has found increasingly advanced ways to quickly don the armor, from the capability to summon it to him, to nanotech that allows the armor to grow from within a storage unit on his chest. </p>
+              </div>
+          </div>
+          </div>
+          
+        </div>
+        <div class="swiper-slide">
+          <div class="storymoment">
+              <img src="Tony/P4.jpg" alt=""  style="    transform: translateX(350px) translatey(-30px) scale(.9);">
+              <div class="storycon">
+              </div>
+              <div class="storyconn">
+                  <div class="storytitles">
+                  <div class="counter">
+                  <h3>04</h3>
+
+                  <h4>04</h4>
+               </div>
+                  <h2>powers + abilities</h2>
+              </div>
+              <div class="story">
+                  <h1>Super Strength + Durability</h1>
+                  <p>One of many specialized suits, the Hulkbuster armor is a highly durable, incredibly strong suit that allows Stark to go toe to toe with the teammate for which it is named.</p>
+              </div>
+          </div>
+          </div>
+          
+        </div>
+        
+   
+      </div>
+      <div class="swiper-button-next" style="color: #e62429;"></div>
+      <div class="swiper-button-prev" style="color: #e62429;"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySpider", {
+        spaceBetween: 30,
+        effect: "fade",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+          <h1 class="meow" style="color: black; font-size: 30px; font-weight: 400;">eneimes & other</h1>
+          <section class="chars11" id="characters">         
+          
+              <div class="slide" style="border-top:#e62429 4px solid;padding: 10px;border-bottom:#e62429 4px solid;padding-bottom: 30px;">
+                 
+                  <ul class="slidecon">
+                   <div class="itemm" id="item">
+                          <a class="link">
+                              <div class="card">
+                                  <figure class="cardimg">
+                                        <img src="Tony/E1.webp" id="bottom">
+                                        <img src="Tony/E12.webp"id="top">
+                                  </img>
+                                  <!-- After  -->
+                                   </figure>
+                              </div>
+                              <div class="cardbody">
+                                  
+                              <P>ULTRON</P>
+                              </div>
+                          </a>  
+                   </div>         
+              </ul>            
+                  <ul class="slidecon">
+                   <div class="itemm" id="item">
+                          <a class="link">
+                              <div class="card">
+                                  <figure class="cardimg">
+                                    <img src="Tony/E2.webp" id="bottom">
+                                    <img src="Tony/E22.jpg"id="top">
+                                  </img>
+                                  <!-- After  -->
+                                   </figure>
+                              </div>
+                              <div class="cardbody">
+                                  
+                              <P>THANOS</P>
+                              </div>
+                          </a>  
+                   </div>         
+              </ul>            
+                  <ul class="slidecon">
+                   <div class="itemm" id="item">
+                          <a class="link">
+                              <div class="card">
+                                  <figure class="cardimg">
+                                    <img src="Tony/E3.jpeg" id="bottom">
+                                    <img src="Tony/E32.webp"id="top">
+                                  </img>
+                                  <!-- After  -->
+                                   </figure>
+                              </div>
+                              <div class="cardbody">
+                                  
+                              <P>LOKI</P>
+          
+                              </div>
+                          </a>  
+                   </div>         
+              </ul>            
+                  <ul class="slidecon">
+                   <div class="itemm" id="item">
+                          <a class="link">
+                              <div class="card">
+                                  <figure class="cardimg" id="change">
+                                    <img src="Tony/E4.webp" id="bottom">
+                                      <img src="Tony/E42.jpg"id="top">
+                                     
+                                  
+                                  <!-- After  -->
+                                   </figure>
+                              </div>
+                              <div class="cardbody">
+                                  
+                              <P>EBONY MAW</P>
+          
+                              </div>
+                          </a>  
+                   </div>         
+              </ul>            
+                  <ul class="slidecon">
+                   <div class="itemm" id="item">
+                          <a class="link">
+                              <div class="card">
+                                  <figure class="cardimg">
+                                    <img src="Tony/E5.jpg" id="bottom">
+                                    <img src="Tony/E52.webp"id="top">
+                                  </img>
+                                  <!-- After  -->
+                                   </figure>
+                              </div>
+                              <div class="cardbody">
+                                  
+                              <P>Aldrich Killian </P>
+          
+                              </div>
+                          </a>  
+                   </div>         
+              </ul>            
+                  <ul class="slidecon">
+                   <div class="itemm" id="item">
+                          <a class="link">
+                              <div class="card">
+                                  <figure class="cardimg">
+                                    <img src="Tony/E6.webp" id="bottom">
+                                    <img src="Tony/E62.jpg"id="top">
+                                  </img>
+                                  <!-- After  -->
+                                   </figure>
+                              </div>
+                              <div class="cardbody">
+                                  
+                              <P>Ivan Vanko</P>
+          
+                              </div>
+                          </a>  
+                   </div>         
+              </ul>            
+          </div>          
+            </section>
+            <h1 class="meow" style="color: black; font-size: 30px; font-weight: 700;">related movies</h1>
+<section style="background-color: white;">
+    <div style="background-color: aliceblue;top: -50px;display: grid; grid-template-columns: repeat(4,1fr);gap: 20px;padding:15px;box-shadow: 0 2px 10px #000000; width: fit-content; position: relative; left: 15%;">
+     <a href="iron.html"><div  class="spidermovie" style="display: flex;flex-direction: column;">
+            <div style="width: 100%;">
+     <img src="img/Ironmanposter.JPG" alt="">
+    </div>
+     <h1>Iron Man</h1>
+     <p>2008</p>
+     </div>
+      <a href="iron2.html">  <div class="spidermovie" style="display: flex;flex-direction: column;">
+            <div style="width: 100%;">
+                <img src="img/2.jpg" alt="">
+               </div>
+     <h1>Iron Man 2</h1>
+     <p>2010</p>
+     </div>
+    </a>
+    <a href="iron3.html"><div class="spidermovie" style="display: flex;flex-direction: column;">
+            <div style="width: 100%;">
+                <img src="img/Iron_man_three_ver9.jpg" alt="">
+               </div>
+     <h1>Iron Man 3</h1>
+     <p>2013</p>
+     </div>
+     <a href="endgame.html"><div class="spidermovie" style="display: flex;flex-direction: column;">
+            <div style="width: 100%;">
+                <img src="img/end.jpg" alt="">
+               </div>
+     <h1>Avengers:Endgame</h1>
+     <p>2019</p>
+     </div>
+
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="img/marvel.png" type="image/jpg">
+
+  <!-- 
+    - custom css link
+  -->
+  
+  <link rel="stylesheet" href="../endgame.html">
+  <link rel="stylesheet" href="style2.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+ 
+  <script>
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+<header id="navbar">
+    
+<div class="logo">
+    <a href="#marvel">
+        <img src="../marvel-logo-png-transparent.png" alt="">
+    </a>
+</div>
+<div class="nav1">
+<ul class="nav">
+    <li><a href="../template2.html" class="homepage">Home</a></li>
+    <li><a href="index.html" class="mov">Movies
+      
+    </a>
+
+</li>
+    <li><a href="../charachters.html">Characters</a></li>
+    <li><a href="../games.html">Games</a></li>
+    <li><a href="../index.html">Music</a>
+    </li>
+</ul>
+
+</div>
+<a href="#footer" class="btn1" style=> About us</a>
+</header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+     
+      <section class="hero">
+        <div class="container">
+            
+          <div class="hero-content">
+
+
+            <h1 class="h1 hero-title">
+              Avengers: <strong>Endgame</strong>
+            </h1>
+
+            <div class="meta-wrapper">
+
+              <div class="badge-wrapper">
+
+              </div>
+
+              <div class="ganre-wrapper">
+                <a href="#">Action</a>
+
+                <a href="#">Adventure</a>
+              </div>
+
+              <div class="date-time">
+
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time datetime="2022">2019</time>
+                </div>
+
+                <div>
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <time datetime="PT128M">182 min</time>
+                </div>
+
+              </div>
+
+            </div>
+
+            <button class="btn btn-primary">
+              <ion-icon name="play"></ion-icon>
+              <span> <a href="../endgame.html"> Watch now </span> </a>
+              
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+      <section class="top-rated">
+        <div class="container">
+
+
+          <ul class="movies-list">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="img/Spiderman_p1.jpg" alt="">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Spider Man</h3>
+                  </a>
+
+                  <time datetime="2022">2002</time>
+                </div>
+
+                <div class="card-meta">
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT122M">121 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.4</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="img/am1.jpg" alt="">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Spider Man 2</h3>
+                  </a>
+
+                  <time datetime="2022">2004</time>
+                </div>
+
+                <div class="card-meta">
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT104M">127 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.4</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="img/Spider-man3-pos1.jpg" alt="">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Spider Man 3</h3>
+                  </a>
+
+                  <time datetime="2022">2008</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT106M">139 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>6.3</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="../iron.html">
+                  <figure class="card-banner">
+                    <img src="img/Ironmanposter.JPG" alt="">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="../iron.html">
+                    <h3 class="card-title">Iron Man</h3>
+                  </a>
+
+                  <time datetime="2021">2008</time>
+                </div>
+
+                <div class="card-meta">
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT115M">126 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.7</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="../thein.html">
+                  <figure class="card-banner">
+                    <img src="img/inc.jpg" alt="">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="../thein.html">
+                    <h3 class="card-title">The Incredible Hulk</h3>
+                  </a>
+
+                  <time datetime="2022">2008</time>
+                </div>
+
+                <div class="card-meta">
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT176M">112 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>6.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="../iron2.html">
+                  <figure class="card-banner">
+                    <img src="img/2.jpg" alt="">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="../iron2.html">
+                    <h3 class="card-title">Iron Man 2</h3>
+                  </a>
+
+                  <time datetime="2022">2010</time>
+                </div>
+
+                <div class="card-meta">
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT116M">125 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>6.9</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="../thor1.html">
+                  <figure class="card-banner">
+                    <img src="img/thor.jpg" alt="">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="../thor1.html">
+                    <h3 class="card-title">Thor</h3>
+                  </a>
+
+                  <time datetime="2022">2011</time>
+                </div>
+
+                <div class="card-meta">
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT127M">114 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="../cap1.html">
+                  <figure class="card-banner">
+                    <img src="img/cap.jpg" alt="">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="../cap1.html">
+                    <h3 class="card-title">Captian America:The First Avenger</h3>
+                  </a>
+
+                  <time datetime="2021">2012</time>
+                </div>
+
+                <div class="card-meta">
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT131M">124 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>6.9</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+           
+            <div class="pagination"><ul class='page-numbers'>
+            <li><span aria-current="page" class="page-numbers current">1</span></li>
+            <li><a class="page-numbers" href="2.html">2</a></li>
+	         <li><a class="page-numbers" href="3.html">3</a></li>
+	         <li><a class="page-numbers" href="4.html">4</a></li>
+           <li><a class="page-numbers" href="5.html">5</a></li>
+
+
+           <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+           <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+</body>
+
+</html>

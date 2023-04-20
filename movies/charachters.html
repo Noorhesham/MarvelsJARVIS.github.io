@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="template2.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="all.min.css">
+    <!-- icons from box -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;800&family=Roboto:ital,wght@0,500;0,700;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header id="navbar">
+        
+    <div class="logo">
+        <a href="#marvel">
+            <img src="marvel-logo-png-transparent.png" alt="">
+        </a>
+    </div>
+    <div class="nav1">
+    <ul class="nav">
+        <li><a href="template2.html" class="homepage">Home</a></li>
+        <li><a href="moviees/index.html" class="mov">Movies
+          
+        </a>
+
+  </li>
+        <li><a href="charachters.html">Characters</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="index.html">Music</a>
+        </li>
+    </ul>
+  
+  </div>
+  <a href="#footer" class="btn1" style=> About us</a>
+</header>
+
+
+    <section class="characters-intro">
+      <div class="charcon">
+        <h1>Marvel charcaters</h1>
+        <p>Get hooked on a hearty helping of heroes and villains from the humble House of Ideas!</p>
+      </div>
+    </section>
+    <section id="timeline">
+        <div class="item">
+        <a class="photo" style="background-image: url(img/char3.jpg);"></a>
+        <div class="namee"><p style="color: rgb(255, 255, 255);">Captain america</p></div>
+       <div class="char-content">
+        <h1>America’s World War II Super-Soldier</h1>
+        <p>Recipient of the Super Soldier serum, World War II hero Steve Rogers fights for American ideals as one of the world’s mightiest heroes and the leader of the Avengers.</p> 
+       </div>
+    </div>
+    <div class="item">
+      <a  href="spiderman/spiderchar.html" class="photo" style="background-image: url(img/char2.jpg);"></a>
+      <div class="namee" ><p>spiderman</p></div>
+     <div class="char-content">
+      <h1>With amazing spider-like abilities, teenage science whiz Peter Parker</h1>
+      <p>Bitten by a radioactive spider, Peter Parker’s arachnid abilities give him amazing powers he uses to help others, while his personal life continues to offer plenty of obstacles.</p> 
+     </div>
+  </div>
+      <div class="item">
+        <a  href="tony.html" class="photo" style="background-image: url(img/char1.jpg);background-position: -50px 0px;background-repeat:no-repeat;background-size: cover;transform: scale(1.3);"></a>
+      <div class="namee" ><p>ironman</p></div>
+     <div class="char-content">
+      <h1>Inventor Tony Stark as Iron Man, the armored Avenger.</h1>
+      <p>Genius. Billionaire. Philanthropist. Tony Stark's confidence is only matched by his high-flying abilities as the hero called Iron Man.</p> 
+     </div>
+  </div>
+        <div class="item">
+        <a  href="#" class="photo" style="background-image: url(img/char4.jpg);"></a>
+        <div class="namee" ><p>Hulk</p></div>
+       <div class="char-content">
+        <h1>scientist Bruce Banner transforms into the Hulk.</h1>
+        <p>Dr. Bruce Banner lives a life caught between the soft-spoken scientist he’s always been and the uncontrollable green monster powered by his rage.</p> 
+       </div>
+    </div>
+     
+        <div class="item">
+        <a  href="#" class="photo" style="background-image: url(img/char5.jpg);" href="#"></a>
+        <div class="namee"><p>DR.strange</p></div>
+       <div class="char-content">
+        <h1> Earth’s newest Master of the Mystic Arts.</h1>
+        <p>Formerly a renowned surgeon, Doctor Stephen Strange now serves as the Sorcerer Supreme—Earth’s foremost protector against magical and mystical threats.</p> 
+       </div>
+    </div>
+
+
+
+    </section>
+      
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
+    <footer>
+      <div class="footer-content">
+      
+        <div class="main-footer-links">
+          <div class="footer-logo">
+            <a href="template2.html">
+             <img src="android-chrome-icon-194.png">
+            </a>
+          </div>
+          <p>by j.a.r.v.i.s team</p>
+          <div class="primlinks">
+            <ul>
+              <Li><A> about marvel </A></Li>
+              <Li><A> careers</A></Li>
+              <Li><A> internships </A></Li>
+              <Li><A> help/faqs </A></Li>
+              <Li><A> contact jarvis </A></Li>
+            </ul>
+          </div>
+          <div class="teammates">
+            <h3> created by</h3>
+            <ul>
+              <li>noor</li>
+              <li>mai </li>
+              <li>myrna</li>
+              <li>nadeem</li>
+            </ul>
+          </div>
+          <div class="marvel-social">
+            <h4>follow marvel</h4>
+            <ul>
+              <Li><a href="https://www.facebook.com/Marvel/" target="_blank">
+                <i class='bx bxl-facebook-square' style='color:#767676'  ></i>
+              </a></Li>
+              <Li><a href="https://twitter.com/marvel" target="_blank">
+                <i class='bx bxl-twitter' style='color:#767676' ></i>
+              </a></Li>
+              <Li><a href="https://www.instagram.com/marvel/" target="_blank">
+                <i class='bx bxl-instagram-alt' style='color:#767676' ></i>
+              </a></Li>
+              <Li><a href="https://marvelentertainment.tumblr.com/" target="_blank">
+                <i class='bx bxl-tumblr' style='color:#767676' ></i>
+              </a></Li>
+              <Li><a href="https://www.youtube.com/marvel" target="_blank">
+                <i class='bx bxl-youtube' style='color:#767676' ></i>
+              </a></Li>
+              <Li><a href="https://www.snapchat.com/add/marvelhq">
+                <i class='bx bxl-snapchat' style='color:#767676' ></i>
+              </a></Li>
+              <Li><a href="https://www.pinterest.com/marvelofficial/" target="_blank">
+                <i class='bx bxl-pinterest' style='color:#767676' ></i>
+              </a></Li>
+            </ul>
+          </div>
+        </div>
+      
+      </div>
+      </footer>
+</body>
+</html>

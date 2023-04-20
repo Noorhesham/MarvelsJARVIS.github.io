@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="img/marvel.png" type="image/jpg">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style2.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+  <script>
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+<header id="navbar">
+    
+<div class="logo">
+    <a href="#marvel">
+        <img src="../marvel-logo-png-transparent.png" alt="">
+    </a>
+</div>
+<div class="nav1">
+<ul class="nav">
+    <li><a href="../template2.html" class="homepage">Home</a></li>
+    <li><a href="moviees/2.html" class="mov">Movies
+      
+    </a>
+
+</li>
+    <li><a href="../charachters.html">Characters</a></li>
+    <li><a href="../games.html">Games</a></li>
+    <li><a href="#music">Music</a>
+    </li>
+</ul>
+
+</div>
+<a href="#footer" class="btn1" style=> About us</a>
+</header>
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+
+            <h1 class="h1 hero-title">
+              Avengers: <strong>Endgame</strong>
+            </h1>
+
+            <div class="meta-wrapper">
+
+              <div class="badge-wrapper">
+
+              </div>
+
+              <div class="ganre-wrapper">
+                <a href="#">Action</a>
+
+                <a href="#">Adventure</a>
+              </div>
+
+              <div class="date-time">
+
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time datetime="2022">2019</time>
+                </div>
+
+                <div>
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <time datetime="PT128M">182 min</time>
+                </div>
+
+              </div>
+
+            </div>
+
+            <button class="btn btn-primary">
+              <ion-icon name="play"></ion-icon>
+
+              <span> <a href="../endgame.html"> Watch now </span> </a>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+      <section class="top-rated">
+        <div class="container">
+                <ul class="movies-list">
+            
+        <li>
+                <div class="movie-card">
+
+                        <a href="./movie-details.html">
+                          <figure class="card-banner">
+                            <img src="img/Spider-Man_Into_the_Spider-Verse_poster.png" alt="">
+                          </figure>
+                        </a>
+              
+                        <div class="title-wrapper">
+                          <a href="./movie-details.html">
+                            <h3 class="card-title">Spider Man Into The Spider Verse</h3>
+                          </a>
+              
+                          <time datetime="2021">2018</time>
+                        </div>
+              
+                        <div class="card-meta">
+              
+                          <div class="duration">
+                            <ion-icon name="time-outline"></ion-icon>
+              
+                            <time datetime="PT131M">116 min</time>
+                          </div>
+              
+                          <div class="rating">
+                            <ion-icon name="star"></ion-icon>
+              
+                            <data>8.4</data>
+                          </div>
+                        </div>
+              
+                      </div>
+                    </li>
+                    <li>
+                      <div class="movie-card">
+              
+                        <a href="../ant2.html">
+                          <figure class="card-banner">
+                            <img src="img/ant2.jpg" alt="">
+                          </figure>
+                        </a>
+              
+                        <div class="title-wrapper">
+                          <a href="../ant2.html">
+                            <h3 class="card-title">Ant-Man And The Wasp</h3>
+                          </a>
+              
+                          <time datetime="2021">2018</time>
+                        </div>
+              
+                        <div class="card-meta">
+              
+                          <div class="duration">
+                            <ion-icon name="time-outline"></ion-icon>
+              
+                            <time datetime="PT131M">118 min</time>
+                          </div>
+              
+                          <div class="rating">
+                            <ion-icon name="star"></ion-icon>
+              
+                            <data>7</data>
+                          </div>
+                        </div>
+              
+                      </div>
+                    </li>
+                    
+                    <li>
+                      <div class="movie-card">
+              
+                        <a href="../captian.html">
+                          <figure class="card-banner">
+                            <img src="img/mar.jpg" alt="">
+                          </figure>
+                        </a>
+              
+                        <div class="title-wrapper">
+                          <a href="../captian.html">
+                            <h3 class="card-title">Captain Marvel</h3>
+                          </a>
+              
+                          <time datetime="2021">2019</time>
+                        </div>
+              
+                        <div class="card-meta">
+              
+                          <div class="duration">
+                            <ion-icon name="time-outline"></ion-icon>
+              
+                            <time datetime="PT131M">124 min</time>
+                          </div>
+              
+                          <div class="rating">
+                            <ion-icon name="star"></ion-icon>
+              
+                            <data>6.8</data>
+                          </div>
+                        </div>
+              
+                      </div>
+                    </li>
+                    
+                    <li>
+                      <div class="movie-card">
+              
+                        <a href="../endgame.html">
+                          <figure class="card-banner">
+                            <img src="img/end.jpg" alt="">
+                          </figure>
+                        </a>
+              
+                        <div class="title-wrapper">
+                          <a href="../endgame.html">
+                            <h3 class="card-title">Avengers:Endgame</h3>
+                          </a>
+              
+                          <time datetime="2021">2019</time>
+                        </div>
+              
+                        <div class="card-meta">
+              
+                          <div class="duration">
+                            <ion-icon name="time-outline"></ion-icon>
+              
+                            <time datetime="PT131M">182 min</time>
+                          </div>
+              
+                          <div class="rating">
+                            <ion-icon name="star"></ion-icon>
+              
+                            <data>8.4</data>
+                          </div>
+                        </div>
+              
+                      </div>
+                    </li>
+                      <div class="movie-card">
+              
+                        <a href="./movie-details.html">
+                          <figure class="card-banner">
+                            <img src="img/Venom_poster.jpg" alt="">
+                          </figure>
+                        </a>
+              
+                        <div class="title-wrapper">
+                          <a href="./movie-details.html">
+                            <h3 class="card-title">Venom</h3>
+                          </a>
+              
+                          <time datetime="2021">2019</time>
+                        </div>
+              
+                        <div class="card-meta">
+              
+                          <div class="duration">
+                            <ion-icon name="time-outline"></ion-icon>
+              
+                            <time datetime="PT131M">112 min</time>
+                          </div>
+              
+                          <div class="rating">
+                            <ion-icon name="star"></ion-icon>
+              
+                            <data>6.6</data>
+                          </div>
+                        </div>
+              
+                      </div>
+                    </li>
+                      <div class="movie-card">
+              
+                        <a href="../far.html">
+                          <figure class="card-banner">
+                            <img src="img/far.jpg" alt="">
+                          </figure>
+                        </a>
+              
+                        <div class="title-wrapper">
+                          <a href="../far.html">
+                            <h3 class="card-title">Spider-Man: Far From Home</h3>
+                          </a>
+              
+                          <time datetime="2021">2019</time>
+                        </div>
+              
+                        <div class="card-meta">
+              
+                          <div class="duration">
+                            <ion-icon name="time-outline"></ion-icon>
+              
+                            <time datetime="PT131M">130 min</time>
+                          </div>
+              
+                          <div class="rating">
+                            <ion-icon name="star"></ion-icon>
+              
+                            <data>7.4</data>
+                          </div>
+                        </div>
+              
+                      </div>
+                    </li>
+                      <div class="movie-card">
+              
+                        <a href="../widow.html">
+                          <figure class="card-banner">
+                            <img src="img//wid.jpg" alt="">
+                          </figure>
+                        </a>
+              
+                        <div class="title-wrapper">
+                          <a href="../widow.html">
+                            <h3 class="card-title">Black Widow</h3>
+                          </a>
+              
+                          <time datetime="2021">2019</time>
+                        </div>
+              
+                        <div class="card-meta">
+              
+                          <div class="duration">
+                            <ion-icon name="time-outline"></ion-icon>
+              
+                            <time datetime="PT131M">133 min</time>
+                          </div>
+              
+                          <div class="rating">
+                            <ion-icon name="star"></ion-icon>
+              
+                            <data>6.7</data>
+                          </div>
+                        </div>
+              
+                      </div>
+                    </li>
+                      <div class="movie-card">
+              
+                        <a href="./movie-details.html">
+                          <figure class="card-banner">
+                            <img src="img/ve2.jpg" alt="">
+                          </figure>
+                        </a>
+              
+                        <div class="title-wrapper">
+                          <a href="./movie-details.html">
+                            <h3 class="card-title">Venom2</h3>
+                          </a>
+              
+                          <time datetime="2021">2020</time>
+                        </div>
+              
+                        <div class="card-meta">
+              
+                          <div class="duration">
+                            <ion-icon name="time-outline"></ion-icon>
+              
+                            <time datetime="PT131M">97 min</time>
+                          </div>
+              
+                          <div class="rating">
+                            <ion-icon name="star"></ion-icon>
+              
+                            <data>5.9</data>
+                          </div>
+                        </div>
+              
+                      </div>
+                    </li>
+                    <div class="pagination"><ul class='page-numbers'>
+                    <li><a class="page-numbers" href="index.html">1</a></li>
+                     <li><a class="page-numbers" href="2.html">2</a></li>
+                    <li><a class="page-numbers" href="3.html">3</a></li>
+                    <li><span aria-current="page" class="page-numbers current">4</span></li>
+                    <li><a class="page-numbers" href="5.html">5</a></li>
+
+                    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+           <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
