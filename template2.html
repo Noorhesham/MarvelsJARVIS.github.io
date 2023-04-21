@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="movies/template2.css">
+    <link rel="stylesheet" href="movies/normalize.css">
+    <link rel="stylesheet" href="movies/all.min.css">
+    <!-- icons from box -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;800&family=Roboto:ital,wght@0,500;0,700;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header id="navbar">
+        
+      <div class="logo">
+          <a href="#marvel">
+              <img src="marvel-logo-png-transparent.png" alt="">
+          </a>
+      </div>
+      <div class="nav1">
+      <ul class="nav">
+          <li><a href="template2.html" class="homepage">Home</a></li>
+          <li><a href="moviees/index.html" class="mov">Movies
+            
+          </a>
+
+    </li>
+          <li><a href="charachters.html">Characters</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="index.html">Music</a>
+          </li>
+      </ul>
+    
+    </div>
+    <a href="#footer" class="btn1" style=> About us</a>
+  </header>
+
+<!-- home -->
+        <!-- Swiper -->
+        <section class="home swiper" id="home">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+            <img src="img/home11.jpg"alt="">
+            <div class="home-text">
+                <span class="spi">
+                    SPIDER-MAN sequal from insomniac!!
+                </span>
+                <hr style="color: rgb(186, 37, 37);">
+                <p class="spid">
+                    swings to PS5 in 2023
+                </P>
+                <h2 class="firsth">MARVEL'S SPIDER-MAN 2</h2>
+                <a href="games.html" class="btn first">More details</a>
+                
+            </div>
+          </div>
+          <div class="swiper-slide container">
+            <img src="img/home2.jpg"alt="">
+            <div class="home-text">
+                <span>
+                  cross with Sony
+                </span>
+                
+                <h1>Discover Anti Hero!!</h1>
+                <a href="#" class="btn" style="margin: 10px; margin-bottom: 20px;">More details</a>
+                
+            </div>
+             </div>
+          <div class="swiper-slide container">
+            <img src="img/home22'.jpg">
+            <div class="home-text">
+                <span style=" color: rgb(255, 255, 255) ; background-color: rgba(0, 0, 0, 0.56); border-radius: 3px;">
+                    Miles Morales returns for the next 
+                    <br>chapter of spider-verse!
+                </span>
+                <h1 style="color: black; font-size: 45px; margin-top: 10px;letter-spacing: 2px; font-weight: 500;padding: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">spider-verse sequal<br> coming out soon!!</h1>
+                <hr style="color: rgb(148, 25, 21);">
+                <a href="#" class="btn" style="margin-bottom: 30px;">watch trailer now</a>
+                <a href="#" class="play"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+                
+            </div>
+         </div>
+          <div class="swiper-slide container">
+            <img src="img/home3.jpg"alt="">
+            <div class="home-text">
+                <span>
+                   MARVEL CINEMATIC UNIVERSE
+                </span>
+                <h1>Know more about THE AVENGERS</h1>
+                <a href="#" class="btn" style="margin-bottom: -30px;">know more</a>
+                <a></a>
+            </div>
+         </div>
+        </div> 
+          <div class="swiper-pagination"></div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".home", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+    });
+  </script>
+<script>
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+<div class="part" style="margin-bottom:50px;background-color: rgba(255, 255, 255, 0.94); width: 100%;height: 30px;transform: rotateX(100px);">
+    <div class="icons">
+    <a href="" class="face"><i class='bx bxl-twitter'style="color: #0080ff;"></i></a>
+    <a href="" class="insta"><i class='bx bxl-instagram'  style="color: #ff00ff;"></i></a>
+    <a href="" class="twitter"><i class='bx bxl-facebook-circle' style="color: #0080ff;"></i></a>
+    <a href="" class="youtube"><i class='bx bxl-youtube'  style="color: #ff0000;"></i></a>
+    </div>
+    <div class="logos" style=" border-bottom: 2px solid rgba(196, 27, 27, 0.886);">
+      <div style="background-color: white; display: flex; position: relative ;top: -60px; left: 30px; height: 60px;border-radius: 21px;">
+      <h4>Marvel on fire ! check out for the latest marvelous news..</h4>
+      
+    </div>
+  </div>
+</div>
+<section class="home2">
+<dev class="con">
+    <dev class="txt">
+        <h2 class="heading2">Know more about peter parker life !!</h2>
+        <p>None of us do not like spiderman!!
+            after NWH and the invreasing love to the Character
+            it is time to dicover some new depths into peter parker
+        </p>
+        <i class="fa-solid fa-spider fa-2xl"></i>
+        <a href="#" class="">Swing there!!</a>
+    </dev>
+    <dev class="pics">
+
+      <img src="img/Spider-Man Wallpaper.jpeg" class="pic" style="animation: upanddown 3s ease-in-out infinite; ">
+      <img src="img/srpskafabrikastakla_com.jpeg" class="pico" style="position:absolute; bottom:90px;transform: rotate(-4deg);animation: upanddown 3s ease-in-out infinite;margin-top: 100px; ">
+
+    </dev>
+</dev>
+</section>
+<!-- <section class="home3">
+<dev class="container2">
+    <dev class="txt">
+        <h2 class="heading3">Know more about peter parker life !!</h2>
+        <p>None of us do not like spiderman!!
+            after NWH and the invreasing love to the Character
+            it is time to dicover some new depths into peter parker
+        </p>
+    </dev>
+    <dev class="pics2">
+      <img src="img/original-168dcf7fbab12e47ebf83d020aaf11e0.gif"> 
+    </dev>
+</dev>
+</section> -->
+
+<hr>
+<section class="movies">
+    <div class="movie">
+      <div class="sik"></div>
+      <H1>Top Movies</H1>
+        <div class="movcont">
+                <div class="box">
+                    <div class="card">
+                      <a href="no.html">
+                 <img src="img/m2.jpg">
+                      </a>
+                </div>
+                <div class="movie-content">
+                <h3>Spiderman-No Way Home</h3>
+                <p>2h 28min|2021</p>
+               </div>
+                </div>
+                <div class="box">
+                    <div class="card">
+                      <a href="infinity war.html">
+                 <img src="img/m4.jpg">
+                      </a>
+                </div>
+                <div class="movie-content">
+                <h3>Avengers Infinity war</h3>
+                <p>2h 29min|2018</p>
+               </div>
+                </div>
+                <div class="box">
+                    <div class="card">
+                      <a href="endgame.html">
+                 <img src="img/m1.jpg">
+                 </a>
+                </div>
+                <div class="movie-content">
+                <h3>Avengers End Game</h3>
+                <p>3h 1min|2019</p>
+               </div>
+                </div>
+                <div class="box">
+                    <div class="card">
+                      <a href="#">
+                 <img src="img/m3.jpg">
+                </a>
+                </div>
+                <div class="movie-content">
+                <h3>Venom let there be carnage</h3>
+                <p>1h 37min|2021</p>
+                </div>
+                </div>
+               
+
+        </div>
+    </div>
+
+</section>
+<hr style="height: 10px;">
+<h1 style="position:relative; bottom: -400px; padding: auto;margin-left: 30px;">In Marvel .. you can find..</h1>
+<hr style="position:relative; bottom: -400px;">
+<section class="home4" >
+
+  <div class="whatis">
+    <div class="con1">
+    <div class="mcontent">
+      <h1 style="padding: 20px;">THE multiverse</h1>
+     <h2>what is multiverse ?!</h2>
+     <p>The Multiverse is the collection of alternate universes which share a universal hierarchy;
+       it is a subsection of the larger Omniverse, the collection of all alternate universes. 
+       A large variety of these universes were originated as forms of divergence from other realities,
+        where an event with different possible outcomes gives rise to different universes, one for each outcome.
+        Some can seem to be taking place in the past or future due to differences in how time passes in each universe</p>
+    </div>
+    <div class="imgss">
+      <img src="img/multi23.png" alt="">
+    </div>
+    </div>
+    <hr style="height: 15px;">
+    <div class="between">
+      <img src="img/doctorstrangeinthemultiverseofmadness_lob_log_div_02 (1).png" alt="">
+    </div>
+  <div class="con2">
+
+    <div class="mcontent2">
+    <h3>Marvel Studios' Doctor Strange in the Multiverse of Madness</h3>
+    <div class="imgss">
+      <img src="img/doctorstrangeinthemultiverseofmadness_lob_crd_02_3.jpg" alt="">
+    </div>
+    <p>Marvel Studios' "Doctor Strange in the Multiverse of Madness"—a thrilling ride through the Multiverse with Doctor Strange, his trusted friend Wong and Wanda Maximoff, 
+      aka Scarlet Witch. "Doctor Strange in the Multiverse of Madness" opens in U.S. theaters on May 6, 2022.</p>
+      <div></div>
+      <div class="dataa">
+        <div class="data">
+        <div class="data-label">
+         DIRCTOR
+        </div>
+        <div class="data-info">
+          Sam Raimi
+        </div>
+      </div>
+      <div class="data">
+        <div class="data-label">
+          CAST
+        </div>
+        <div class="data-info">
+          Benedict Cumberbatch, Elizabeth Olsen, Benedict Wong, Rachel McAdams, Chiwetel Ejiofor and Xochitl Gomez
+        </div>
+      </div>
+      <div class="data">
+        <div class="data-label">
+          RELEASE DATE
+        </div>
+        <div class="data-info">
+          May 6, 2022
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="video" style="background-color: aliceblue;">
+    <h1 style="padding: 10px;margin: 0;font-size: 40px;"> | Official Trailer</h1>
+    <iframe src="https://assets.espn.go.com/players/web-player-bundle/next/embed/share.html#id=6305086101001&brand=marvel" scrolling="no" width="854" height="480" allowFullScreen frameBorder="0"
+
+    style="margin-left:350px; margin-top: 30px;"  ></iframe>
+  </div>
+  </div>
+</section>
+<footer id="footer" style="position: relative; top: 400px;">
+<div class="footer-content">
+
+  <div class="main-footer-links">
+    <div class="footer-logo">
+      <a href="template2.html">
+       <img src="android-chrome-icon-194.png">
+      </a>
+    </div>
+    <p>by j.a.r.v.i.s team</p>
+    <div class="primlinks">
+      <ul>
+        <Li><A> about marvel </A></Li>
+        <Li><A> careers</A></Li>
+        <Li><A> internships </A></Li>
+        <Li><A> help/faqs </A></Li>
+        <Li><A> contact jarvis </A></Li>
+      </ul>
+    </div>
+    <div class="teammates">
+      <h3> created by</h3>
+      <ul>
+        <li>noor</li>
+        <li>mai </li>
+        <li>myrna</li>
+        <li>nadeem</li>
+      </ul>
+    </div>
+    <div class="marvel-social">
+      <h4>follow marvel</h4>
+      <ul>
+        <Li><a href="https://www.facebook.com/Marvel/" target="_blank">
+          <i class='bx bxl-facebook-square' style='color:#767676'  ></i>
+        </a></Li>
+        <Li><a href="https://twitter.com/marvel" target="_blank">
+          <i class='bx bxl-twitter' style='color:#767676' ></i>
+        </a></Li>
+        <Li><a href="https://www.instagram.com/marvel/" target="_blank">
+          <i class='bx bxl-instagram-alt' style='color:#767676' ></i>
+        </a></Li>
+        <Li><a href="https://marvelentertainment.tumblr.com/" target="_blank">
+          <i class='bx bxl-tumblr' style='color:#767676' ></i>
+        </a></Li>
+        <Li><a href="https://www.youtube.com/marvel" target="_blank">
+          <i class='bx bxl-youtube' style='color:#767676' ></i>
+        </a></Li>
+        <Li><a href="https://www.snapchat.com/add/marvelhq">
+          <i class='bx bxl-snapchat' style='color:#767676' ></i>
+        </a></Li>
+        <Li><a href="https://www.pinterest.com/marvelofficial/" target="_blank">
+          <i class='bx bxl-pinterest' style='color:#767676' ></i>
+        </a></Li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+</footer>
+</body>
+</html>
